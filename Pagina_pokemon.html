@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tienda de peluches de Pokemon en Colombia.">
+    <meta name="keywords" content="pokemon, peluche, pokemon colombia, tienda de pokemon, tienda de pokemon colombia, venta de peluches de pokemon, peluches, greninja de peluche">
+    <meta name="robots" content="index, follow">
+    <meta name="Author" content="James Moncada">
+    <title>Tengo que pensar en un nombre</title>
+      <!--<link rel="stylesheet" href="C:\Users\james\Pagina Pokemon\reset.css">-->
+    <link rel="stylesheet" href="C:\Users\james\Pagina Pokemon\styles.css">
+    
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo-tienda.png" alt="Logo Tienda de Peluches Pokémon">
+        </div>
+        <nav>
+            <ul class="menu">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#categorias">Categorías: Agua, Fuego, Dragon, Volador, Siniestro, Fantasma, Acero, Lucha, Normal, Psiquico, Bicho, Planta, Roca, Tierra, Hada </a></li>
+                <li><a href="#promociones">Promociones: Gran oferta de navidad!</a></li>
+                <li><a href="#contacto">Contacto: 3112223333</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="inicio" class="banner">
+        <h1>¡Atrapa tu peluche favorito!</h1>
+        <p>Descubre nuestra colección exclusiva de peluches de Pokémon y añade magia a tu día.</p>
+        <a href="#productos" class="btn">Ver Productos</a>
+    </section>
+
+    <!-- Productos Destacados -->
+    <section id="productos" class="productos">
+        <h2>Peluches Destacados</h2>
+        <div class="grid">
+            <div class="producto">
+                <img src="pikachu-peluche.png" alt="Peluche Pikachu">
+                <h3>Peluche Pikachu</h3>
+                <p>$25.00 USD</p>
+                <a href="#" class="btn">Comprar</a>
+            </div>
+            <div class="producto">
+                <img src="charizard-peluche.png" alt="Peluche Charizard">
+                <h3>Peluche Charizard</h3>
+                <p>$35.00 USD</p>
+                <a href="#" class="btn">Comprar</a>
+            </div>
+            <div class="producto">
+                <img src="bulbasaur-peluche.png" alt="Peluche Bulbasaur">
+                <h3>Peluche Bulbasaur</h3>
+                <p>$20.00 USD</p>
+                <a href="#" class="btn">Comprar</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categorías -->
+    <section id="categorias" class="categorias">
+        <h2>Categorías</h2>
+        <div class="grid">
+            <div class="categoria">
+                <img src="categoria-fuego.png" alt="Pokémon Tipo Fuego">
+                <h3>Pokémon Tipo Fuego</h3>
+            </div>
+            <div class="categoria">
+                <img src="categoria-agua.png" alt="Pokémon Tipo Agua">
+                <h3>Pokémon Tipo Agua</h3>
+            </div>
+            <div class="categoria">
+                <img src="categoria-electrico.png" alt="Pokémon Tipo Eléctrico">
+                <h3>Pokémon Tipo Eléctrico</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Promociones -->
+    <section id="promociones" class="promociones">
+        <h2>Ofertas Especiales</h2>
+        <div class="promocion">
+            <p><strong>¡2x1!</strong> En peluches seleccionados de la región Kanto.</p>
+            <a href="#productos" class="btn">Ver Oferta</a>
+        </div>
+    </section>
+
+    <!-- Formulario de Contacto -->
+    <section id="contacto" class="contacto">
+        <h2>Contáctanos</h2>
+        <form action="enviar.php" method="POST">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+            <button type="submit" class="btn">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2024 Tienda de Peluches Pokémon. Todos los derechos reservados.</p>
+        <p>Síguenos en:
+            <a href="https://facebook.com">Facebook</a> |
+            <a href="https://instagram.com">Instagram</a>
+        </p>
+    </footer>
+</body>
+
